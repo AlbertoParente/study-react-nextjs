@@ -1,7 +1,12 @@
+import Link from 'next/link'
+
 export default function initial() {
     return (
         <div>
-            <h1>Fundamentals of Nextjs and React</h1>
+            <Link href="/Stylish">
+                Stylish
+            </Link>
+            
         </div>
     )
 }
