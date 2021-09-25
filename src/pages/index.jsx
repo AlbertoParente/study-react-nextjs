@@ -1,6 +1,5 @@
 import Navigate from "../components/Navigate";
 
-
 export default function initial() {
     return (
         <div style={{
@@ -9,6 +8,8 @@ export default function initial() {
             <Navigate text="Stylish" destiny="/stylish" />
             <Navigate text="Example" destiny="/example" cor="#9400d3"/>
             <Navigate text="Jsx" destiny="/jsx" color="crimson"/>
+            <Navigate text="Navigation #01" destiny="/navigation/" color="green"/>
+            <Navigate text="Navigation #02" destiny="/client/ce/123" color="blue"/>
         </div>
     )
 }
