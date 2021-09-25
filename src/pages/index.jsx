@@ -7,8 +7,8 @@ export default function initial() {
             display:'flex',
         }}>
             <Navigate text="Stylish" destiny="/stylish" />
-            <Navigate text="Example" destiny="/example" />
-            <Navigate text="Jsx" destiny="/jsx" />
+            <Navigate text="Example" destiny="/example" cor="#9400d3"/>
+            <Navigate text="Jsx" destiny="/jsx" color="crimson"/>
         </div>
     )
 }
