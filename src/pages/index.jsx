@@ -10,6 +10,7 @@ export default function initial() {
             <Navigate text="Jsx" destiny="/jsx" color="crimson"/>
             <Navigate text="Navigation #01" destiny="/navigation/" color="green"/>
             <Navigate text="Navigation #02" destiny="/client/ce/123" color="blue"/>
+            <Navigate text="Component With State" destiny="/state" color="pink"/>
         </div>
     )
 }
