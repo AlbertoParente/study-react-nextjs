@@ -12,6 +12,7 @@ export default function initial() {
             <Navigate text="Navigation #02" destiny="/client/ce/123" color="blue"/>
             <Navigate text="Component With State" destiny="/state" color="#a45b71"/>
             <Navigate text="Integration With API #01" destiny="/integration1" color="#42a9a9"/>
+            <Navigate text="Static Component" destiny="/estatic" color="#fa054a"/>
         </div>
     )
 }
