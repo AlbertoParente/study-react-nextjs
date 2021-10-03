@@ -21,7 +21,7 @@ export default function Integration() {
         <Layout>
             <div>
                 <input type="number" value={code}
-                    onChange={e=> setCode(e.target.value)}/>
+                    onChange={e => setCode(e.target.value)} />
                 <button onClick={getClient}>Get Client</button>
             </div>
             <ul>

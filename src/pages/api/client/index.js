@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-    if(req.method === 'GET') {
+    if (req.method === 'GET') {
         handleGet(req, res)
     } else {
         res.status(405).send()
