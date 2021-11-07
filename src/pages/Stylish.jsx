@@ -1,5 +1,4 @@
 import stylish from '../styles/Stylish.module.css'
-import Link from 'next/link'
 import Layout from '../components/Layout'
 
 export default function Stylish() {

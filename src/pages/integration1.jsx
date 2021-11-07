@@ -9,19 +9,18 @@ export default function Integration() {
         const resp = await fetch(`http//localhost:3000/api/clients/${code}`)
         const dados = await resp.json()
         setClient(dados)
-
-        /*
-        fetch(`http//localhost:3000/api/clients/${code}`)
-            .then(resp =>.json())
-            .then(dados => setClient())
-        */
     }
 
     return (
         <Layout>
             <div>
-                <input type="number" value={code}
-                    onChange={e => setCode(e.target.value)} />
+                <input
+                    type="number"
+                    value={code}
+                    onChange={
+                        e => setCode(e.target.value)
+                    }
+                />
                 <button onClick={getClient}>Get Client</button>
             </div>
             <ul>

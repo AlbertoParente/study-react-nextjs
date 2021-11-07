@@ -5,6 +5,5 @@ export default function handler(req, res) {
         id: code,
         name: `Juliana ${code}`,
         email: `juliana12oliver${code}@gmail.com`
-
     })
 }
